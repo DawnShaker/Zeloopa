@@ -1541,12 +1541,12 @@
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     },
     "en_us": {
-      "item.zeloopa.elven_ingot": "Dwemer Ingot",
+      "item.zeloopa.elven_ingot": "Elven Ingot",
       "item.zeloopa.steel_ingot": "Dwemer Ingot",
       "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
-      "item.zeloopa.mithril_ingot": "Dwemer Ingot",
-      "item.zeloopa.ebonite_ingot": "Dwemer Ingot",
-      "item.zeloopa.shadow_steel_ingot": "Dwemer Ingot",
+      "item.zeloopa.mithril_ingot": "Mithril Ingot",
+      "item.zeloopa.ebonite_ingot": "Ebonite Ingot",
+      "item.zeloopa.shadow_steel_ingot": "Shadow Steel Ingot",
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     }
   },

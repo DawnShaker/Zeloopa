@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "steel",
     "customModelName": "Normal",
-    "name": "Dwemer Ingot",
+    "name": "Steel Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MATERIALS"

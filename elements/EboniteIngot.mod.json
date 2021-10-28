@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "ebonite",
     "customModelName": "Normal",
-    "name": "Dwemer Ingot",
-    "rarity": "COMMON",
+    "name": "Ebonite Ingot",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "MATERIALS"
     },

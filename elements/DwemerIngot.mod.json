@@ -6,7 +6,7 @@
     "texture": "dwemer",
     "customModelName": "Normal",
     "name": "Dwemer Ingot",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "MATERIALS"
     },

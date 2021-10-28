@@ -18,7 +18,7 @@ fullscreen:false
 bobView:false
 toggleCrouch:false
 toggleSprint:false
-mouseSensitivity:0.09859154929577464
+mouseSensitivity:0.09859155118465424
 fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -62,7 +62,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 syncChunkWrites:true

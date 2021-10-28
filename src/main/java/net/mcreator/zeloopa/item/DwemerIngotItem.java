@@ -25,7 +25,7 @@ public class DwemerIngotItem extends ZeloopaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("dwemer_ingot");
 		}
 

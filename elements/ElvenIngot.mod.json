@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "elven",
     "customModelName": "Normal",
-    "name": "Dwemer Ingot",
-    "rarity": "COMMON",
+    "name": "Elven Ingot",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "MATERIALS"
     },

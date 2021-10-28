@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "shadow_steel",
     "customModelName": "Normal",
-    "name": "Dwemer Ingot",
-    "rarity": "COMMON",
+    "name": "Shadow Steel Ingot",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "MATERIALS"
     },

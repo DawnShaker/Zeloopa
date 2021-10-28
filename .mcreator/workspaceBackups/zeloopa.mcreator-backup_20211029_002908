@@ -1326,6 +1326,79 @@
         ]
       },
       "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrMana",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_mana",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "DwemerIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dwemer_ingot",
+      "path": "~/OresIngots"
+    },
+    {
+      "name": "EboniteIngot",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_ingot",
+      "path": "~/OresIngots"
+    },
+    {
+      "name": "ElvenIngot",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elven_ingot",
+      "path": "~/OresIngots"
+    },
+    {
+      "name": "MithrilIngot",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mithril_ingot",
+      "path": "~/OresIngots"
+    },
+    {
+      "name": "ShadowSteelIngot",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadow_steel_ingot",
+      "path": "~/OresIngots"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/OresIngots"
     }
   ],
   "variable_elements": [
@@ -1459,9 +1532,21 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
+      "item.zeloopa.elven_ingot": "Dwemer Ingot",
+      "item.zeloopa.steel_ingot": "Dwemer Ingot",
+      "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
+      "item.zeloopa.mithril_ingot": "Dwemer Ingot",
+      "item.zeloopa.ebonite_ingot": "Dwemer Ingot",
+      "item.zeloopa.shadow_steel_ingot": "Dwemer Ingot",
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     },
     "en_us": {
+      "item.zeloopa.elven_ingot": "Dwemer Ingot",
+      "item.zeloopa.steel_ingot": "Dwemer Ingot",
+      "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
+      "item.zeloopa.mithril_ingot": "Dwemer Ingot",
+      "item.zeloopa.ebonite_ingot": "Dwemer Ingot",
+      "item.zeloopa.shadow_steel_ingot": "Dwemer Ingot",
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     }
   },
@@ -1484,6 +1569,10 @@
       {
         "name": "CharAtributesInfluence",
         "children": []
+      },
+      {
+        "name": "OresIngots",
+        "children": []
       }
     ]
   },
@@ -1495,12 +1584,13 @@
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
-    "serverSideOnly": false,
+    "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zeloopa",
     "lockBaseModFiles": false
   },

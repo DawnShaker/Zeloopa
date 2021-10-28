@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "mithril",
     "customModelName": "Normal",
-    "name": "Dwemer Ingot",
-    "rarity": "COMMON",
+    "name": "Mithril Ingot",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "MATERIALS"
     },

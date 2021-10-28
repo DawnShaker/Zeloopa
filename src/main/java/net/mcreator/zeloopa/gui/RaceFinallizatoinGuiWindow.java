@@ -74,15 +74,15 @@ public class RaceFinallizatoinGuiWindow extends ContainerScreen<RaceFinallizatoi
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "" + (int) ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.drawString(ms, "" + ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ZeloopaModVariables.PlayerVariables())).varPlayerStrength) + "", 111, 42, -16777216);
-		this.font.drawString(ms, "" + (int) ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.drawString(ms, "" + ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ZeloopaModVariables.PlayerVariables())).varPlayerAgility) + "", 111, 60, -16777216);
-		this.font.drawString(ms, "" + (int) ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.drawString(ms, "" + ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ZeloopaModVariables.PlayerVariables())).varPlayerEndurance) + "", 111, 78, -16777216);
-		this.font.drawString(ms, "" + (int) ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.drawString(ms, "" + ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ZeloopaModVariables.PlayerVariables())).varPlayerIntelligence) + "", 111, 96, -16777216);
-		this.font.drawString(ms, "" + (int) ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.drawString(ms, "" + ((entity.getCapability(ZeloopaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ZeloopaModVariables.PlayerVariables())).varPlayerWill) + "", 111, 114, -16777216);
 		this.font.drawString(ms, "Strenght:", 52, 42, -16777216);
 		this.font.drawString(ms, "Agility:", 57, 61, -16777216);

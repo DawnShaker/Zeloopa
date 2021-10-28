@@ -27,12 +27,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:varPlayerStrength>",
+          "text": "<VAR:varPlayerStrength>",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:varPlayerStrength>",
+          "name": "<VAR:varPlayerStrength>",
           "x": 150,
           "y": 62
         }
@@ -40,12 +40,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:varPlayerAgility>",
+          "text": "<VAR:varPlayerAgility>",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:varPlayerAgility>",
+          "name": "<VAR:varPlayerAgility>",
           "x": 150,
           "y": 80
         }
@@ -53,12 +53,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:varPlayerEndurance>",
+          "text": "<VAR:varPlayerEndurance>",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:varPlayerEndurance>",
+          "name": "<VAR:varPlayerEndurance>",
           "x": 150,
           "y": 98
         }
@@ -66,12 +66,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:varPlayerIntelligence>",
+          "text": "<VAR:varPlayerIntelligence>",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:varPlayerIntelligence>",
+          "name": "<VAR:varPlayerIntelligence>",
           "x": 150,
           "y": 116
         }
@@ -79,12 +79,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:varPlayerWill>",
+          "text": "<VAR:varPlayerWill>",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:varPlayerWill>",
+          "name": "<VAR:varPlayerWill>",
           "x": 150,
           "y": 134
         }

@@ -20,8 +20,8 @@
           "width": 95,
           "height": 20,
           "name": "To race choose",
-          "x": 169,
-          "y": 137
+          "x": 168,
+          "y": 107
         }
       }
     ],
@@ -30,7 +30,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

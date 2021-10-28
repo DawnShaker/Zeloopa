@@ -1282,7 +1282,12 @@
       "ids": {},
       "registry_name": "char_health_regen",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/CharAtributesInfluence"
     },
@@ -1305,13 +1310,13 @@
       "path": "~/CharAtributesInfluence"
     },
     {
-      "name": "CharCurrStamina",
+      "name": "CharSprintOutcome",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "char_curr_stamina",
+      "registry_name": "char_sprint_outcome",
       "metadata": {
         "dependencies": [
           {
@@ -1319,6 +1324,19 @@
             "type": "entity"
           }
         ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrMana",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_mana",
+      "metadata": {
+        "dependencies": []
       },
       "path": "~/CharAtributesInfluence"
     }

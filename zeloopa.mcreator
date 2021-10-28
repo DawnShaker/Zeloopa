@@ -1531,6 +1531,7 @@
   ],
   "sound_elements": [],
   "language_map": {
+<<<<<<< HEAD
     "ru_ru": {
       "item.zeloopa.elven_ingot": "Эльфийский слиток",
       "item.zeloopa.steel_ingot": "Стальной слиток",
@@ -1540,9 +1541,11 @@
       "item.zeloopa.shadow_steel_ingot": "Тенесталевый слиток",
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     },
+=======
+>>>>>>> e335498772b81a6e5a6818e74c027c77279e02b2
     "en_us": {
       "item.zeloopa.elven_ingot": "Elven Ingot",
-      "item.zeloopa.steel_ingot": "Dwemer Ingot",
+      "item.zeloopa.steel_ingot": "Steel Ingot",
       "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
       "item.zeloopa.mithril_ingot": "Mithril Ingot",
       "item.zeloopa.ebonite_ingot": "Ebonite Ingot",

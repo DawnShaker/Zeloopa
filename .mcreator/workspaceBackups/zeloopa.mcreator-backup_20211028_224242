@@ -1326,6 +1326,19 @@
         ]
       },
       "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrMana",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_mana",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/CharAtributesInfluence"
     }
   ],
   "variable_elements": [
@@ -1483,6 +1496,10 @@
       },
       {
         "name": "CharAtributesInfluence",
+        "children": []
+      },
+      {
+        "name": "OresIngots",
         "children": []
       }
     ]

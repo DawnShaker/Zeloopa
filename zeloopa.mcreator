@@ -1497,6 +1497,10 @@
       {
         "name": "CharAtributesInfluence",
         "children": []
+      },
+      {
+        "name": "OresIngots",
+        "children": []
       }
     ]
   },
@@ -1508,12 +1512,13 @@
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
-    "serverSideOnly": false,
+    "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zeloopa",
     "lockBaseModFiles": false
   },

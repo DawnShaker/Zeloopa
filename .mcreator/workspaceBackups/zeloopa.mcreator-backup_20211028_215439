@@ -1246,7 +1246,12 @@
       "ids": {},
       "registry_name": "char_stamina_issues",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/CharAtributesInfluence"
     },
@@ -1277,7 +1282,12 @@
       "ids": {},
       "registry_name": "char_health_regen",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/CharAtributesInfluence"
     },
@@ -1289,24 +1299,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "char_mana_regen",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/CharAtributesInfluence"
-    },
-    {
-      "name": "CharCurrStamina",
-      "type": "procedure",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "char_curr_stamina",
       "metadata": {
         "dependencies": [
           {
@@ -1332,6 +1324,19 @@
             "type": "entity"
           }
         ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrMana",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_mana",
+      "metadata": {
+        "dependencies": []
       },
       "path": "~/CharAtributesInfluence"
     }

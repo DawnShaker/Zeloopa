@@ -1,0 +1,64 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 180,
+    "height": 218,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "ButtonToCloseCharGuiList"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 244,
+          "y": 200
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Skills",
+          "onClick": {
+            "name": "ToCharSkills"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Skills",
+          "x": 184,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Info",
+          "onClick": {
+            "name": "ToCharInfo"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Info",
+          "x": 189,
+          "y": 35
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

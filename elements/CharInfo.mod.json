@@ -1,0 +1,323 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "ButtonToCloseCharGuiList"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 329,
+          "y": 192
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to list",
+          "onClick": {
+            "name": "ButtonTOCharGuiList"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Back to list",
+          "x": 45,
+          "y": 192
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Race:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Race:",
+          "x": 51,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Player:",
+          "x": 51,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerRace>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerRace>",
+          "x": 87,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Health:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Health:",
+          "x": 222,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Stamina:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Stamina:",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mana:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mana:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Level:",
+          "x": 51,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerLvl>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerLvl>",
+          "x": 87,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:varPlayerStaminaCurr> / <VAR:integer:varPlayerStaminaMax>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:varPlayerStaminaCurr> / <VAR:integer:varPlayerStaminaMax>",
+          "x": 294,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:varPlayerManaCurr> / <VAR:integer:varPlayerManaMax>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:varPlayerManaCurr> / <VAR:integer:varPlayerManaMax>",
+          "x": 294,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:varPlayerHealthCurr> / <VAR:integer:varPlayerHealthMax>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:varPlayerHealthCurr> / <VAR:integer:varPlayerHealthMax>",
+          "x": 294,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerStrength>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerStrength>",
+          "x": 294,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerAgility>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerAgility>",
+          "x": 294,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerEndurance>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerEndurance>",
+          "x": 294,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerIntelligence>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerIntelligence>",
+          "x": 294,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:varPlayerWill>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:varPlayerWill>",
+          "x": 294,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Strength:",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Agility:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Agility:",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Endurance:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Endurance:",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Intelligence:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Intelligence:",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Willpower:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Willpower:",
+          "x": 222,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

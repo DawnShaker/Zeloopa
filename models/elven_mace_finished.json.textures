@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "elven_mace_finished"
+      },
+      "name": "default"
+    },
+    "test": {
+      "map": {
+        "1": "elven_mace_finished"
+      },
+      "name": "test"
+    }
+  }
+}

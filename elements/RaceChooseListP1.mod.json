@@ -1,0 +1,119 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Other races",
+          "onClick": {
+            "name": "ButtonToRaceChooseListP2"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Other races",
+          "x": 172,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Altmer",
+          "onClick": {
+            "name": "RaceChooseAltmer"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Altmer",
+          "x": 55,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Argonian",
+          "onClick": {
+            "name": "RaceChooseArgonian"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Argonian",
+          "x": 114,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Bosmer",
+          "onClick": {
+            "name": "RaceChooseBosmer"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Bosmer",
+          "x": 183,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Breton",
+          "onClick": {
+            "name": "RaceChooseBreton"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Breton",
+          "x": 242,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Dunmer",
+          "onClick": {
+            "name": "RaceChooseDunmer"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Dunmer",
+          "x": 302,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You can choose one of the presented races",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "You can choose one of the presented races",
+          "x": 113,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

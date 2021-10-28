@@ -1,0 +1,50 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "ButtonToCloseCharGuiList"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 240,
+          "y": 173
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to list",
+          "onClick": {
+            "name": "ButtonTOCharGuiList"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Back to list",
+          "x": 135,
+          "y": 173
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

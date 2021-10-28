@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "To Char Gui List",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "ButtonTOCharGuiList"
+    }
+  }
+}

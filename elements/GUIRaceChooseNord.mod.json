@@ -1,0 +1,128 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 350,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Race: Nord",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Race: Nord",
+          "x": 47,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength +10",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Strength +10",
+          "x": 47,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Agility +5",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Agility +5",
+          "x": 47,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Endurance +10",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Endurance +10",
+          "x": 47,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Intelligence -5",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Intelligence -5",
+          "x": 47,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength of will +10",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Strength of will +10",
+          "x": 47,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back to race list",
+          "onClick": {
+            "name": "ButtonToRaceChooseListP2"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "Back to race list",
+          "x": 47,
+          "y": 190
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Choose",
+          "onClick": {
+            "name": "ButtonToChooseNord"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Choose",
+          "x": 320,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

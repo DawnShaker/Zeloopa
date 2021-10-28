@@ -1532,12 +1532,12 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.zeloopa.elven_ingot": "Dwemer Ingot",
-      "item.zeloopa.steel_ingot": "Dwemer Ingot",
-      "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
-      "item.zeloopa.mithril_ingot": "Dwemer Ingot",
-      "item.zeloopa.ebonite_ingot": "Dwemer Ingot",
-      "item.zeloopa.shadow_steel_ingot": "Dwemer Ingot",
+      "item.zeloopa.elven_ingot": "Эльфийский слиток",
+      "item.zeloopa.steel_ingot": "Стальной слиток",
+      "item.zeloopa.dwemer_ingot": "Двемерский слиток",
+      "item.zeloopa.mithril_ingot": "Мифриловый слиток",
+      "item.zeloopa.ebonite_ingot": "Эбонитовый слиток",
+      "item.zeloopa.shadow_steel_ingot": "Тенесталевый слиток",
       "key.zeloopa.to_char_gui_list": "To Char Gui List"
     },
     "en_us": {

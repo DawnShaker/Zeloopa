@@ -1564,6 +1564,10 @@
       {
         "name": "OresIngots",
         "children": []
+      },
+      {
+        "name": "Crafts",
+        "children": []
       }
     ]
   },

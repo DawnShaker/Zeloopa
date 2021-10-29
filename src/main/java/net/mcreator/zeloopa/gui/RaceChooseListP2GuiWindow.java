@@ -34,7 +34,7 @@ public class RaceChooseListP2GuiWindow extends ContainerScreen<RaceChooseListP2G
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 350;
+		this.xSize = 300;
 		this.ySize = 200;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("zeloopa:textures/race_choose_list_p_2.png");
@@ -73,7 +73,7 @@ public class RaceChooseListP2GuiWindow extends ContainerScreen<RaceChooseListP2G
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "You can choose one of the presented races", 75, 15, -16777216);
+		this.font.drawString(ms, "You can choose one of the presented races", 50, 21, -16777216);
 	}
 
 	@Override
@@ -86,37 +86,37 @@ public class RaceChooseListP2GuiWindow extends ContainerScreen<RaceChooseListP2G
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 136, this.guiTop + 138, 80, 20, new StringTextComponent("Other races"), e -> {
+		this.addButton(new Button(this.guiLeft + 113, this.guiTop + 150, 80, 20, new StringTextComponent("Other races"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(0, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 10, this.guiTop + 83, 65, 20, new StringTextComponent("Imperial"), e -> {
+		this.addButton(new Button(this.guiLeft + 14, this.guiTop + 51, 65, 20, new StringTextComponent("Imperial"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(1, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 86, this.guiTop + 83, 55, 20, new StringTextComponent("Kajiit"), e -> {
+		this.addButton(new Button(this.guiLeft + 158, this.guiTop + 51, 55, 20, new StringTextComponent("Kajiit"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(2, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 154, this.guiTop + 83, 45, 20, new StringTextComponent("Nord"), e -> {
+		this.addButton(new Button(this.guiLeft + 95, this.guiTop + 51, 45, 20, new StringTextComponent("Nord"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(3, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 3, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 215, this.guiTop + 83, 40, 20, new StringTextComponent("Orc"), e -> {
+		this.addButton(new Button(this.guiLeft + 131, this.guiTop + 87, 40, 20, new StringTextComponent("Orc"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(4, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 269, this.guiTop + 83, 65, 20, new StringTextComponent("Redguard"), e -> {
+		this.addButton(new Button(this.guiLeft + 221, this.guiTop + 51, 65, 20, new StringTextComponent("Redguard"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new RaceChooseListP2Gui.ButtonPressedMessage(5, x, y, z));
 				RaceChooseListP2Gui.handleButtonAction(entity, 5, x, y, z);

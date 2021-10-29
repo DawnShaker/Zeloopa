@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 300,
+    "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -21,7 +21,7 @@
           "height": 20,
           "name": "To race choose",
           "x": 168,
-          "y": 107
+          "y": 179
         }
       }
     ],
@@ -30,7 +30,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

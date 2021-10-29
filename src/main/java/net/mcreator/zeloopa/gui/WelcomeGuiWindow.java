@@ -34,8 +34,8 @@ public class WelcomeGuiWindow extends ContainerScreen<WelcomeGui.GuiContainerMod
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 300;
+		this.ySize = 200;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("zeloopa:textures/welcome.png");
 	@Override
@@ -85,7 +85,7 @@ public class WelcomeGuiWindow extends ContainerScreen<WelcomeGui.GuiContainerMod
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 42, this.guiTop + 70, 95, 20, new StringTextComponent("To race choose"), e -> {
+		this.addButton(new Button(this.guiLeft + 104, this.guiTop + 159, 95, 20, new StringTextComponent("To race choose"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new WelcomeGui.ButtonPressedMessage(0, x, y, z));
 				WelcomeGui.handleButtonAction(entity, 0, x, y, z);

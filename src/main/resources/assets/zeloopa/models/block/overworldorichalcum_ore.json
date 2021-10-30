@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeloopa:blocks/orihalk_ore",
+    "up": "zeloopa:blocks/orihalk_ore",
+    "north": "zeloopa:blocks/orihalk_ore",
+    "east": "zeloopa:blocks/orihalk_ore",
+    "south": "zeloopa:blocks/orihalk_ore",
+    "west": "zeloopa:blocks/orihalk_ore",
+    "particle": "zeloopa:blocks/orihalk_ore"
+  }
+}

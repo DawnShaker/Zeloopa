@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.zeloopa.itemgroup.ModPageItemGroup;
 import net.mcreator.zeloopa.ZeloopaModElements;
 
 @ZeloopaModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class ElvenIngotItem extends ZeloopaModElements.ModElement {
 	@ObjectHolder("zeloopa:elven_ingot")
 	public static final Item block = null;
 	public ElvenIngotItem(ZeloopaModElements instance) {
-		super(instance, 67);
+		super(instance, 68);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class ElvenIngotItem extends ZeloopaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(ModPageItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("elven_ingot");
 		}
 

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crain_material",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChainRings"
+      },
+      {
+        "value": "CUSTOM:ChainRings"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChainRings"
+      },
+      {
+        "value": "CUSTOM:ChainRings"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChainMaterial"
+    },
+    "name": "chain_material_craft",
+    "namespace": "mod"
+  }
+}

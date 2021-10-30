@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeloopa:blocks/moonstone_ore",
+    "up": "zeloopa:blocks/moonstone_ore",
+    "north": "zeloopa:blocks/moonstone_ore",
+    "east": "zeloopa:blocks/moonstone_ore",
+    "south": "zeloopa:blocks/moonstone_ore",
+    "west": "zeloopa:blocks/moonstone_ore",
+    "particle": "zeloopa:blocks/moonstone_ore"
+  }
+}

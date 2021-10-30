@@ -1,0 +1,22 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "zeloopa:glass_dust"
+    },
+    {
+      "item": "zeloopa:elven_dust"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:mythril_dust",
+    "count": 1
+  }
+}

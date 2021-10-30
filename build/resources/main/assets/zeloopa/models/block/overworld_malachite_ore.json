@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeloopa:blocks/malahit_ore",
+    "up": "zeloopa:blocks/malahit_ore",
+    "north": "zeloopa:blocks/malahit_ore",
+    "east": "zeloopa:blocks/malahit_ore",
+    "south": "zeloopa:blocks/malahit_ore",
+    "west": "zeloopa:blocks/malahit_ore",
+    "particle": "zeloopa:blocks/malahit_ore"
+  }
+}

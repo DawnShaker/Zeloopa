@@ -1,0 +1,26 @@
+{
+  "group": "crain_material",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zeloopa:chain_rings"
+    },
+    "1": {
+      "item": "zeloopa:chain_rings"
+    },
+    "2": {
+      "item": "zeloopa:chain_rings"
+    },
+    "3": {
+      "item": "zeloopa:chain_rings"
+    }
+  },
+  "result": {
+    "item": "zeloopa:chain_material",
+    "count": 1
+  }
+}

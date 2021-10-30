@@ -1,0 +1,12 @@
+{
+  "group": "blasting_ore",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 275,
+  "ingredient": {
+    "item": "zeloopa:overworldorichalcum_ore"
+  },
+  "result": {
+    "item": "zeloopa:raw_orichalcum"
+  }
+}

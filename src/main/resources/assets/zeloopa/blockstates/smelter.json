@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zeloopa:block/smelter"
+    },
+    "facing=east": {
+      "model": "zeloopa:block/smelter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zeloopa:block/smelter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zeloopa:block/smelter",
+      "y": 270
+    }
+  }
+}

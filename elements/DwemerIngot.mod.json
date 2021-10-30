@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dwemer",
+    "texture": "dwemer_ingot",
     "customModelName": "Normal",
     "name": "Dwemer Ingot",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:ModPage"
     },
     "stackSize": 64,
     "enchantability": 0,

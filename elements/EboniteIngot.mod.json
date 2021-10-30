@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ebonite",
+    "texture": "ebonite_ingot",
     "customModelName": "Normal",
     "name": "Ebonite Ingot",
-    "rarity": "RARE",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:ModPage"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

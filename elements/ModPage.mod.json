@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Mod Page",
+    "icon": {
+      "value": "CUSTOM:DrakoniteIngot"
+    },
+    "showSearch": false
+  }
+}

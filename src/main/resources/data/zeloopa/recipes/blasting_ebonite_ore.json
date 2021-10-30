@@ -1,0 +1,12 @@
+{
+  "group": "blasting_ore",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "zeloopa:nether_ebonite_ore"
+  },
+  "result": {
+    "item": "zeloopa:raw_ebonite"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeloopa:mythril_dust"
+    },
+    {
+      "item": "zeloopa:shadowsteel_dust"
+    },
+    {
+      "item": "zeloopa:steel_dust"
+    },
+    {
+      "item": "zeloopa:glass_dust"
+    },
+    {
+      "item": "zeloopa:ebonite_dust"
+    },
+    {
+      "item": "zeloopa:dwemer_dust"
+    },
+    {
+      "item": "zeloopa:elven_dust"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:drakonite_dust",
+    "count": 2
+  }
+}

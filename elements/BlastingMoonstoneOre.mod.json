@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "blasting_ore",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:OverworldMoonstoneOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:RawMoonstone"
+    },
+    "name": "blasting_moonstone_ore",
+    "namespace": "mod"
+  }
+}

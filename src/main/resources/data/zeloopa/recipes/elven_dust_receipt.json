@@ -1,0 +1,16 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeloopa:golden_dust"
+    },
+    {
+      "item": "zeloopa:moonstone_dust"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:elven_dust",
+    "count": 1
+  }
+}

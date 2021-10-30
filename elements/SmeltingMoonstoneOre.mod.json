@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:OverworldMoonstoneOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RawMoonstone"
+    },
+    "name": "smelting_moonstone_ore",
+    "namespace": "mod"
+  }
+}

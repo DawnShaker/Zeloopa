@@ -1,0 +1,16 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeloopa:ebonite_raw_dust"
+    },
+    {
+      "item": "zeloopa:dwemer_dust"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:ebonite_dust",
+    "count": 1
+  }
+}

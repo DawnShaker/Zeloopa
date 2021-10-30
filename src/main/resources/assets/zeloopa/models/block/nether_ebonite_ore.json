@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeloopa:blocks/nether_ebonite",
+    "up": "zeloopa:blocks/nether_ebonite",
+    "north": "zeloopa:blocks/nether_ebonite",
+    "east": "zeloopa:blocks/nether_ebonite",
+    "south": "zeloopa:blocks/nether_ebonite",
+    "west": "zeloopa:blocks/nether_ebonite",
+    "particle": "zeloopa:blocks/nether_ebonite"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeloopa:iron_dust"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:steel_dust",
+    "count": 1
+  }
+}

@@ -1,0 +1,2457 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Welcome",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "welcome",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseListP1",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_list_p_1",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseListP2",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_list_p_2",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToRaceChooseListP1",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_race_choose_list_p_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToRaceChooseListP2",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_race_choose_list_p_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseAltmer",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_altmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseArgonian",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_argonian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseBosmer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_bosmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseBreton",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_breton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseDunmer",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_dunmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseImperial",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_imperial",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseKajiit",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_kajiit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseNord",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_nord",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseOrc",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_orc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceChooseRedguard",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_choose_redguard",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseAltmer",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_altmer",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseArgonian",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_argonian",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseBosmer",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_bosmer",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseDunmer",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_dunmer",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseImperial",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_imperial",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseKajiit",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_kajiit",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseNord",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_nord",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseOrc",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_orc",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseBreton",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_breton",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "GUIRaceChooseRedguard",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_race_choose_redguard",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseAltmer",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_altmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseArgonian",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_argonian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseBosmer",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_bosmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseBreton",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_breton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseDunmer",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_dunmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseImperial",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_imperial",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseKajiit",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_kajiit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseNord",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_nord",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseOrc",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_orc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonToChooseRedguard",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_choose_redguard",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "RaceFinallizatoin",
+      "type": "gui",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "race_finallizatoin",
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "SpawnNRaceChoose",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawn_n_race_choose",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "ButtonFinish",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_finish",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GameStart_ChoosingRace"
+    },
+    {
+      "name": "CharGuiList",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_gui_list",
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "ButtonTOCharGuiList",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_char_gui_list",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "ToCharGuiList",
+      "type": "keybind",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "to_char_gui_list",
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "ButtonToCloseCharGuiList",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "button_to_close_char_gui_list",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "CharSkills",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_skills",
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "CharSkillTreeList",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_skill_tree_list",
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "ToCharSkills",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "to_char_skills",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "CharInfo",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_info",
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "ToCharInfo",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "to_char_info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CharGUI"
+    },
+    {
+      "name": "CharMaxHpFromChoosingRace",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_max_hp_from_choosing_race",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharMaxStamina",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_max_stamina",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharMaxMana",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_max_mana",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharLvlUpHealth",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_lvl_up_health",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharMaxHp",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_max_hp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharBaseHealth",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_base_health",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrHealth",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_health",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharStaminaIssues",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_stamina_issues",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharStaminaRegen",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_stamina_regen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharHealthRegen",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_health_regen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharManaRegen",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_mana_regen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharSprintOutcome",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_sprint_outcome",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "CharCurrMana",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "char_curr_mana",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/CharAtributesInfluence"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "ModPage",
+      "type": "tab",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mod_page"
+    },
+    {
+      "name": "DwemerIngot",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dwemer_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "ElvenIngot",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elven_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "EboniteIngot",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "GlassIngot",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "MithrilIngot",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mithril_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "ShadowsteelIngot",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowsteel_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "DrakoniteIngot",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drakonite_ingot",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "NetherEboniteOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_ebonite_ore",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "OverworldMoonstoneOre",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overworld_moonstone_ore",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "OverworldorichalcumOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overworldorichalcum_ore",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "OverworldMalachiteOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overworld_malachite_ore",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "SmeltingEboniteOre",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_ebonite_ore",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "SmeltingMoonstoneOre",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_moonstone_ore",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "SmeltingMalachiteOre",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_malachite_ore",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "SmeltingOrichalcumOre",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_orichalcum_ore",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "GuiForge",
+      "type": "gui",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_forge",
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "XpRewards",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_rewards",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterUpdateTick",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterItemsRemowed",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_items_remowed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterFuel",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_fuel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterSteelReceipt",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_steel_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "RawEbonite",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_ebonite",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "RawMalachite",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_malachite",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "RawOrichalcum",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_orichalcum",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "RawMoonstone",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_moonstone",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "Smelter",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "SmelterActive",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_active",
+      "path": "~/OresIngots/Blocks"
+    },
+    {
+      "name": "SmelterCraft",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_craft",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainRingsCraft",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_rings_craft",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainRings",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_rings",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "ChainMaterial",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_material",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "ChainMaterialCraft",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_material_craft",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainHelmetCraft",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_helmet_craft",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainChestplate",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_chestplate",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainLeggins",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_leggins",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "ChainBoots",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_boots",
+      "path": "~/OresIngots/Receipts"
+    },
+    {
+      "name": "SmelterDwemerReceipt",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_dwemer_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterElvenReceipt",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_elven_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterGlassReceipt",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_glass_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterEboniteReceipt",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_ebonite_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterMyrthrilReceipt",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_myrthril_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "DarkEssence",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_essence",
+      "path": "~/OresIngots/Ingots"
+    },
+    {
+      "name": "SmelterShadowsteelReceipt",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_shadowsteel_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "SmelterDrakoniteReceipt",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelter_drakonite_receipt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/OresIngots/GuiAndLogic"
+    },
+    {
+      "name": "MythrilDust",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "ShadowsteelDust",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadowsteel_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "SteelDust",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "GlassDust",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "EboniteDust",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ebonite_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "DwemerDust",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dwemer_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "ElvenDust",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elven_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "DrakoniteDust",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drakonite_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumDust",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_dust",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumOre",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_ore",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumBlock",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_block",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_ore_block_recipe",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_block_ore_recipe",
+      "path": "~/OresIngots/Ingots/Dusts"
+    },
+    {
+      "name": "OrichalcumOreSmelting",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orichalcum_ore_smelting",
+      "path": "~/OresIngots/Ingots/Dusts"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "varPlayerStrength",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "15.0"
+    },
+    {
+      "name": "varPlayerRace",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "varPlayerAgility",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "15.0"
+    },
+    {
+      "name": "varPlayerEndurance",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "15.0"
+    },
+    {
+      "name": "varPlayerIntelligence",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "15.0"
+    },
+    {
+      "name": "varPlayerWill",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "15.0"
+    },
+    {
+      "name": "varPlayerStaminaMax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "varPlayerStaminaCurr",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerManaMax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerManaCurr",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthMax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthStartBonus",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthBase",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "20.0"
+    },
+    {
+      "name": "varPlayerHealthEffect",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthLvlUpBonus",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthCurr",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerLvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "varPlayerStaminaRegen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerManaRegen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerHealthRegen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "varPlayerSprintOutcome",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "block.zeloopa.nether_ebonite_ore": "Эбонитовая руда",
+      "item.zeloopa.dwemer_ingot": "Двемерский слиток",
+      "item.zeloopa.orichalcum_dust": "Orichalcum",
+      "block.zeloopa.orichalcum_ore": "Orichalcum Ore",
+      "item.zeloopa.dwemer_dust": "Dwemer",
+      "block.zeloopa.overworld_moonstone_ore": "Руда лунного камня",
+      "key.zeloopa.to_char_gui_list": "Информация о персонаже",
+      "block.zeloopa.orichalcum_block": "Block of Orichalcum",
+      "item.zeloopa.shadowsteel_ingot": "Слиток тенестали",
+      "item.zeloopa.elven_ingot": "Эльфийский слиток",
+      "item.zeloopa.steel_dust": "Steel",
+      "item.zeloopa.raw_ebonite": "Сырой эбонит",
+      "block.zeloopa.overworld_malachite_ore": "Орихалковая руда",
+      "itemGroup.tabmod_page": "Mod Page",
+      "block.zeloopa.overworldorichalcum_ore": "Орихалковая руда",
+      "item.zeloopa.ebonite_ingot": "Эбонитовый слиток",
+      "item.zeloopa.raw_orichalcum": "Сырой орихалк",
+      "item.zeloopa.ebonite_dust": "Ebonite",
+      "item.zeloopa.drakonite_ingot": "Драконит",
+      "item.zeloopa.dark_essence": "Dark Essence",
+      "item.zeloopa.chain_material": "Chain Material",
+      "item.zeloopa.chain_rings": "Chain Rings",
+      "item.zeloopa.raw_malachite": "Сырой малахит",
+      "item.zeloopa.raw_moonstone": "Сырой орихалк",
+      "item.zeloopa.drakonite_dust": "Drakonite",
+      "item.zeloopa.mythril_dust": "Mythril",
+      "item.zeloopa.shadowsteel_dust": "Shadowsteel",
+      "item.zeloopa.glass_dust": "Glass",
+      "item.zeloopa.steel_ingot": "Стальной слиток",
+      "block.zeloopa.smelter": "Smelter",
+      "item.zeloopa.elven_dust": "Elven",
+      "block.zeloopa.smelter_active": "Smelter",
+      "item.zeloopa.mithril_ingot": "Слиток мифрила",
+      "item.zeloopa.glass_ingot": "Стеклянный слиток"
+    },
+    "en_us": {
+      "block.zeloopa.nether_ebonite_ore": "Nether Ebonite Ore",
+      "item.zeloopa.dwemer_ingot": "Dwemer Ingot",
+      "item.zeloopa.orichalcum_dust": "Orichalcum",
+      "block.zeloopa.orichalcum_ore": "Orichalcum Ore",
+      "item.zeloopa.dwemer_dust": "Dwemer",
+      "block.zeloopa.overworld_moonstone_ore": "Moonstone Ore",
+      "key.zeloopa.to_char_gui_list": "To Char Gui List",
+      "block.zeloopa.orichalcum_block": "Block of Orichalcum",
+      "item.zeloopa.shadowsteel_ingot": "Shadowsteel Ingot",
+      "item.zeloopa.elven_ingot": "Elven Ingot",
+      "item.zeloopa.steel_dust": "Steel",
+      "item.zeloopa.raw_ebonite": "Raw Ebonite",
+      "block.zeloopa.overworld_malachite_ore": "Malachite Ore",
+      "itemGroup.tabmod_page": "Mod Page",
+      "block.zeloopa.overworldorichalcum_ore": "OrichalcumOre",
+      "item.zeloopa.ebonite_ingot": "Ebonite Ingot",
+      "item.zeloopa.raw_orichalcum": "Raw Orichalcum",
+      "item.zeloopa.ebonite_dust": "Ebonite",
+      "item.zeloopa.drakonite_ingot": "Drakonite Ingot",
+      "item.zeloopa.dark_essence": "Dark Essence",
+      "item.zeloopa.chain_material": "Chain Material",
+      "item.zeloopa.chain_rings": "Chain Rings",
+      "item.zeloopa.raw_malachite": "Raw Malachite",
+      "item.zeloopa.raw_moonstone": "Raw Moonstone",
+      "item.zeloopa.drakonite_dust": "Drakonite",
+      "item.zeloopa.mythril_dust": "Mythril",
+      "item.zeloopa.shadowsteel_dust": "Shadowsteel",
+      "item.zeloopa.glass_dust": "Glass",
+      "item.zeloopa.steel_ingot": "Steel Ingot",
+      "block.zeloopa.smelter": "Smelter",
+      "item.zeloopa.elven_dust": "Elven",
+      "block.zeloopa.smelter_active": "Smelter",
+      "item.zeloopa.mithril_ingot": "Mithril Ingot",
+      "item.zeloopa.glass_ingot": "Glass Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GameStart_ChoosingRace",
+        "children": []
+      },
+      {
+        "name": "CharGUI",
+        "children": [
+          {
+            "name": "CharSkillsTree",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CharAtributesInfluence",
+        "children": []
+      },
+      {
+        "name": "OresIngots",
+        "children": [
+          {
+            "name": "Ingots",
+            "children": [
+              {
+                "name": "Dusts",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Receipts",
+            "children": []
+          },
+          {
+            "name": "GuiAndLogic",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "zeloopa",
+    "modName": "Ze\u0027Loop-a",
+    "version": "1.0.0",
+    "author": "nitroo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.zeloopa",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

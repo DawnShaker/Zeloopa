@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "smelting_dust",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:IronDust"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "name": "smelting_iron_dust",
+    "namespace": "mod"
+  }
+}

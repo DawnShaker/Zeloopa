@@ -1,0 +1,36 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "zeloopa:chain_material"
+    },
+    "1": {
+      "item": "zeloopa:chain_material"
+    },
+    "2": {
+      "item": "zeloopa:chain_material"
+    },
+    "3": {
+      "item": "zeloopa:chain_material"
+    },
+    "5": {
+      "item": "zeloopa:chain_material"
+    },
+    "6": {
+      "item": "zeloopa:chain_material"
+    },
+    "8": {
+      "item": "zeloopa:chain_material"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_leggings",
+    "count": 1
+  }
+}

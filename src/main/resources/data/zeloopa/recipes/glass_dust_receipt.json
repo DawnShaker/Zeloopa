@@ -1,0 +1,22 @@
+{
+  "group": "zeloopa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "zeloopa:malachite_dust"
+    },
+    {
+      "item": "zeloopa:elven_dust"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "zeloopa:glass_dust",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeloopa:blocks/3",
+    "up": "zeloopa:blocks/3",
+    "north": "zeloopa:blocks/1",
+    "east": "zeloopa:blocks/2",
+    "south": "zeloopa:blocks/2",
+    "west": "zeloopa:blocks/2",
+    "particle": "zeloopa:blocks/2"
+  }
+}

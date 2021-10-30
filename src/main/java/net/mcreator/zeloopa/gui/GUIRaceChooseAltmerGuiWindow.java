@@ -74,7 +74,7 @@ public class GUIRaceChooseAltmerGuiWindow extends ContainerScreen<GUIRaceChooseA
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "Race: Altmer", 18, 13, -16777216);
-		this.font.drawString(ms, "Agility +5", 18, 40, -16777216);
+		this.font.drawString(ms, "Agility +5", 17, 40, -16777216);
 		this.font.drawString(ms, "Endurance -5", 17, 61, -16777216);
 		this.font.drawString(ms, "Intellect +20", 17, 80, -16777216);
 		this.font.drawString(ms, "Strength of will +10", 17, 100, -16777216);

@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 350,
+    "width": 300,
     "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -20,8 +20,8 @@
           "width": 80,
           "height": 20,
           "name": "Other races",
-          "x": 175,
-          "y": 158
+          "x": 177,
+          "y": 170
         }
       },
       {
@@ -34,8 +34,8 @@
           "width": 65,
           "height": 20,
           "name": "Imperial",
-          "x": 49,
-          "y": 103
+          "x": 78,
+          "y": 71
         }
       },
       {
@@ -48,8 +48,8 @@
           "width": 55,
           "height": 20,
           "name": "Kajiit",
-          "x": 125,
-          "y": 103
+          "x": 222,
+          "y": 71
         }
       },
       {
@@ -62,8 +62,8 @@
           "width": 45,
           "height": 20,
           "name": "Nord",
-          "x": 193,
-          "y": 103
+          "x": 159,
+          "y": 71
         }
       },
       {
@@ -76,8 +76,8 @@
           "width": 40,
           "height": 20,
           "name": "Orc",
-          "x": 254,
-          "y": 103
+          "x": 195,
+          "y": 107
         }
       },
       {
@@ -90,8 +90,8 @@
           "width": 65,
           "height": 20,
           "name": "Redguard",
-          "x": 308,
-          "y": 103
+          "x": 285,
+          "y": 71
         }
       },
       {
@@ -104,7 +104,7 @@
           },
           "name": "You can choose one of the presented races",
           "x": 114,
-          "y": 35
+          "y": 41
         }
       }
     ],
@@ -113,7 +113,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

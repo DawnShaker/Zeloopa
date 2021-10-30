@@ -91,13 +91,13 @@ public class CharGuiListGuiWindow extends ContainerScreen<CharGuiListGui.GuiCont
 				CharGuiListGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 60, this.guiTop + 73, 55, 20, new StringTextComponent("Skills"), e -> {
+		this.addButton(new Button(this.guiLeft + 62, this.guiTop + 114, 55, 20, new StringTextComponent("Skills"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new CharGuiListGui.ButtonPressedMessage(1, x, y, z));
 				CharGuiListGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 65, this.guiTop + 24, 45, 20, new StringTextComponent("Info"), e -> {
+		this.addButton(new Button(this.guiLeft + 67, this.guiTop + 67, 45, 20, new StringTextComponent("Info"), e -> {
 			if (true) {
 				ZeloopaMod.PACKET_HANDLER.sendToServer(new CharGuiListGui.ButtonPressedMessage(2, x, y, z));
 				CharGuiListGui.handleButtonAction(entity, 2, x, y, z);
